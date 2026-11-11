@@ -13,7 +13,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 Create venv and install dependencies:
 ```bash
-git clone `repo link`
+git clone https://github.com/a351269/PCG-Denoising.git
 uv sync
 ```
 
