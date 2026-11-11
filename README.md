@@ -50,15 +50,11 @@ Configuration can be handled in `config/` and `src/pcg_denoising/config.py`
 
 
 ## Datasets
-The clean PCG dataset used can be found here:
-```bash
+The clean PCG dataset used can be found here:\
 https://github.com/yaseen21khan/Classification-of-Heart-Sound-Signal-Using-Multiple-Features-
-```
 
-The Speech dataset used is dev-clean from LibriSpeech:
-```bash
+The Speech dataset used is dev-clean from LibriSpeech:\
 https://www.openslr.org/12/
-```
 
 After downloading and extracting the datasets, add them to `data/raw/yeseen/` and `data/raw/LibriSpeech` respectively, as these are the default directories in `config/config.toml` `[directory]` section.
 
