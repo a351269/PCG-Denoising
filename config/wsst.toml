@@ -1,0 +1,45 @@
+[experiment]
+experiment_name = 'test'
+
+[seed]
+folds_seed = 0
+noise_segmentation_seed = 0
+network_initialization_seed = 0
+noise_training_seed = 0
+noise_test_seed = 0
+
+[noise]
+training_noise = 0
+training_noise_type = 'Sum'
+evaluation_noise = [-5, 0]
+evaluation_noise_type = ['AWGN', 'APGN', 'PhysioNet', 'Speech']
+
+[audio]
+sr = 2000
+
+[transform]
+name = 'WSST'
+
+[transform.wsst]
+wavelet = 'morlet'
+n = 64
+nv = 8
+padtype = 'reflect'
+scaletype = 'log-piecewise'
+preset = 'maximal'
+downsample = 4
+cwt_freq_window = 64
+cwt_time_window = 256
+overlap = 0.2
+
+[training]
+folds = 10
+learning_rate = 1e-3
+batch_size = 64
+epochs = 25
+dataset_split = 0.1
+training_split = 0.1
+keep_datasets = false
+
+[directory]
+runs = 'runs'

@@ -1,0 +1,31 @@
+[experiment]
+experiment_name = 'visuals'
+
+[transform]
+name = 'WSST'
+
+[transform.stft]
+nperseg = 64
+noverlap = 32
+fft_size = 256
+
+[transform.wsst]
+wavelet = 'morlet'
+n = 128
+nv = 64
+padtype = 'reflect'
+scaletype = 'log-piecewise'
+preset = 'maximal'
+downsample = 4
+
+[transform.cwt]
+wavelet = 'morlet'
+n = 128
+nv = 64
+padtype = 'reflect'
+scaletype = 'log-piecewise'
+preset = 'maximal'
+downsample = 4
+
+[transform.stockwell]
+s_time_window = 256

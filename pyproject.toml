@@ -1,0 +1,42 @@
+[project]
+name = "pcg-denoising"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "colorednoise>=2.2.0",
+    "h5py>=3.16.0",
+    "hdf5plugin>=7.1.0",
+    "librosa>=1.0.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+    "pywavelets>=1.10.0",
+    "scikit-learn>=1.9.1",
+    "soundfile>=0.14.0",
+    "ssqueezepy>=0.6.6",
+    "torch",
+    "tqdm>=4.70.1",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cuda"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cuda" }
+
+[project.scripts]
+run-experiment = "pcg_denoising.run_experiment:main"
+denoise-file = "pcg_denoising.denoise_pcg:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]

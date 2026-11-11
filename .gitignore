@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data
+*.npy
+*.wav
+*.h5
+*.svg
+*.json
+*.bib
+*.pt
+
+# Folders
+runs/*
+
+# Exclusions
+!models/**
+!images/readme/*.svg
+!data/raw/PCG_silencios_TA_TB_TC/**
