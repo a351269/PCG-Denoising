@@ -170,7 +170,8 @@ More information about the project can be found in [Robust Denoising of Phonocar
 ```
 
 ## References
-[1]	S. Jamil and Others, “FaceGest: A Comprehensive Facial Gesture Dataset for Human-Computer Interaction,” in Proceedings of the Computer Vision and Pattern Recognition Conference, 2025, pp. 337–347.\
-[2]	Yaseen, G.-Y. Son, and S. Kwon, “Classification of heart sound signal using multiple features,” Applied Sciences, vol. 8, no. 12, p. 2344, 2018.\
-[3]	V. Panayotov, G. Chen, D. Povey, and S. Khudanpur, “Librispeech: An ASR corpus based on public domain audio books,” in 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2015, pp. 5206–5210. doi: 10.1109/ICASSP.2015.7178964.\
-[4]	C. Liu et al., “An open access database for the evaluation of heart sound algorithms,” Physiological Measurement, vol. 37, no. 12, p. 2181, Nov. 2016, doi: 10.1088/0967-3334/37/12/2181.
+[1]	J. Muradeli, “ssqueezepy,” GitHub.  Note: https://github.com/OverLordGoldDragon/ssqueezepy/, 2020, doi: 10.5281/zenodo.5080508.\
+[2]	S. Jamil and Others, “FaceGest: A Comprehensive Facial Gesture Dataset for Human-Computer Interaction,” in Proceedings of the Computer Vision and Pattern Recognition Conference, 2025, pp. 337–347.\
+[3]	Yaseen, G.-Y. Son, and S. Kwon, “Classification of heart sound signal using multiple features,” Applied Sciences, vol. 8, no. 12, p. 2344, 2018.\
+[4]	V. Panayotov, G. Chen, D. Povey, and S. Khudanpur, “Librispeech: An ASR corpus based on public domain audio books,” in 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2015, pp. 5206–5210. doi: 10.1109/ICASSP.2015.7178964.\
+[5]	C. Liu et al., “An open access database for the evaluation of heart sound algorithms,” Physiological Measurement, vol. 37, no. 12, p. 2181, Nov. 2016, doi: 10.1088/0967-3334/37/12/2181.
