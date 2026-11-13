@@ -1,3 +1,7 @@
+## Introduction
+This repository contains the source code and implementation of the methods presented in [Enhancing heart sound signal denoising: unveiling the impact of time-frequency transformation in U-Net performance](https://doi.org/10.1007/s11760-026-05421-3) and [Robust Denoising of Phonocardiogram Signals Using Time-Frequency Analysis and U-Nets](https://doi.org/10.1109/ACCESS.2023.3280453). In here we enhance phonocardiogram signal denoising by utilizing four distinct time-frequency representations: STFT, continuous wavelet transform (CWT), wavelet synchrosqueezed transform (WSST), and the *S*-transform, processed through a U-Net architecture and reconstructed back into the time-domain signal.
+
+
 ## Installation
 Install [uv](https://docs.astral.sh/uv/)
 
@@ -56,7 +60,7 @@ https://github.com/yaseen21khan/Classification-of-Heart-Sound-Signal-Using-Multi
 The Speech dataset used is dev-clean from LibriSpeech:\
 https://www.openslr.org/12/
 
-After downloading and extracting the datasets, add them to `data/raw/yeseen/` and `data/raw/LibriSpeech` respectively, as these are the default directories in `config/config.toml` `[directory]` section.
+After downloading and extracting the datasets, add them to `data/raw/yeseen/` and `data/raw/LibriSpeech/` respectively, as these are the default directories in `config/config.toml` `[directory]` section.
 
 The PhysioNet dataset used here consists of silences extracted from the dataset PhysioNet/CinC Challenge 2016.
 
