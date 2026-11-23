@@ -94,7 +94,7 @@ def unetTraining(tf_path, model_path, model_history, lr, batch, epochs, seed):
     if os.path.exists(model_path):
         os.remove(model_path)
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
     print("Device:", device)
     torch.backends.cudnn.benchmark = True
 
